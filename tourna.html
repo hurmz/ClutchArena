@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClutchArena | Tournaments</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+     <link rel="icon" type="image" href="logotab.png">
+</head>
+
+<header>
+    <div class="left-section">
+        <a href="Home.html">
+            <img src="logo.png" alt="Logo" class="logo">
+            </a>
+        <nav>
+            <a href="Games.html">Games</a>
+            <a class="gamescolor" href="tourna.html">Tournaments</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+
+    <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input" />
+            <i class="fa fa-search"></i>
+        </div>
+</header>
+<div class="top-bar">
+    <h1 class="section-title">Tournament Matches</h1>
+
+    <div class="button-group">
+        <button id="dateBtn">
+            Today
+            <span class="arrow"></span>
+        </button>
+
+        <button id="gameBtn">
+            Valorant
+            <span class="arrow"></span>
+        </button>
+
+        <i id="settingsBtn" class="fa-solid fa-gear settings-icon"></i>
+    </div>
+</div>
+
+<!-- Dropdowns -->
+<div id="dateDropdown" class="dropdown hidden">
+    <p>Today</p>
+    <p>Yesterday</p>
+    <p>Past Matches</p>
+</div>
+
+<div id="gameDropdown" class="dropdown hidden">
+    <p>MLBB</p>
+    <p>Valorant</p>
+    <p>DOTA 2</p>
+</div>
+
+<div id="settingsPanel" class="settings-panel hidden">
+    <span>Spoiler Protection</span>
+    <label class="switch" style="float: right;">
+        <input type="checkbox" id="spoilerToggle" checked>
+        <span class="slider"></span>
+    </label>
+</div>
+
+<!-- MATCH LIST -->
+<div class="match-container">
+
+    <!-- MATCH 1 — WITH SPOILER COVER -->
+    <div class="match-card">
+        <div class="score-wrapper">
+            <div class="score">3 / 0</div>
+        </div>
+
+        <div class="match-info">
+            <h3>DSY vs EP</h3>
+            <p>Challengers Ascension EMEA · Groups</p>
+        </div>
+    </div>
+
+    <!-- MATCH 2 -->
+    <div class="match-card">
+        <div class="score-wrapper">
+            <div class="score">2 / 1</div>
+        </div>
+
+        <div class="match-info">
+            <h3>TSM vs STE</h3>
+            <p>Challengers Ascension Americas · Swiss</p>
+        </div>
+    </div>
+
+    <!-- MATCH 3 -->
+    <div class="match-card">
+        <div class="score-wrapper">
+            <div class="score">0 / 2</div>
+        </div>
+
+        <div class="match-info">
+            <h3>6K vs WU</h3>
+            <p>Challengers Ascension Americas · Swiss</p>
+        </div>
+    </div>
+
+</div>
+
+<section class="space-t">
+
+</section>
+
+<!-- FOOTER -->
+    <footer id="bot">
+        <div class="fight">
+            <p id="last">All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<body>
+
+</html>

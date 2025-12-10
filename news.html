@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClutchArena | News</title>
+    <link rel="stylesheet" href="styles.css" /> 
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" type="image" href="logotab.png">
+    <script src="newsjs.js" defer></script>
+</head>
+<body>
+    <header id="top">
+        <div class="left-section">
+            <a href="Home.html">
+                <img src="logo.png" alt="Logo" class="logo">
+            </a>
+            <nav>
+                <a href="Games.html">Games</a>
+                <a href="tourna.html">Tournaments</a>
+                <a class="gamescolor" href="news.html">News</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input" />
+            <i class="fa fa-search"></i>
+        </div>
+    </header>
+
+    <div class="news-layout">
+        <div class="left-news">
+            <h2 class="latest-title">LATEST</h2>
+            
+            <div class="button-news">
+                <button class="game-btn active" data-game="valorant">VALORANT</button>
+                <button class="game-btn" data-game="mlbb">MLBB</button>
+                <button class="game-btn" data-game="lol">DOTA</button>
+            </div>
+            
+            <div id="newsCards" class="news-cards">
+                </div>
+        </div>
+        
+        <div class="right-news">
+             <div class="news-highlight-header">
+                <p class="highlight-label">NEWS HIGHLIGHT</p>
+                <p class="highlight-date">| October 2025</p>
+            </div>
+            
+            <h1 id="highlightTitle" class="highlight-title">Esports Awards announces 2025 finalists and categories</h1>
+            
+            <div id="highlightContent" class="highlight-content">
+                <p>The Esports Awards has revealed the finalists and categories for this year's edition of the annual awards ceremony.</p>
+
+                <p>Categories for The Esports Awards 2025 include Esports Game of the Year, Esports Content Group of the Year, and Esports Host of the Year. However, this year Esports Coverage Platform of the Year has been omitted from the list.</p>
+
+                <p>A total of 21 categories have been named, with the ceremony set to take place in Las Vegas, Nevada on November 19th, 2025.</p>
+
+                <p>On November 20th, esports industry conference PWR UP will occur, featuring a range of panels and forums led by industry professionals. Esports Awards has yet to reveal any names taking part.</p>
+
+                <p>"The Esports Awards continues to shine a light on the best in esports and gaming, and we're thrilled to present our tenth anniversary awards ceremony," said Michael Ashford, CEO of the Esports Awards.</p>
+
+                <p>"Following last year's introduction of two annual shows, we are thrilled to celebrate this year's best in the esports industry in Las Vegas."</p>
+
+                <p>The Esports Awards 2025 is the second awards ceremony to have taken place this year, organized by its organizers. In August, the ceremony hosted a one-off Decade Awards in Riyadh, Saudi Arabia, to celebrate ten years of competitive gaming achievements.</p>
+
+                <p>Below is a full list of the nominees for each category featured at the Esports Awards 2025. Fans can vote for their winner via the Esports Awards official website:</p>
+                <ul>
+                    <li>Esports Game of the Year:</li>
+                    <li>Apex Legends</li>
+                    <li>Counter-Strike 2</li>
+                    <li>DOTA 2</li>
+                    <li>Fortnite</li>
+                    <li>Honor of Kings</li>
+                </ul>
+            </div>
+            <a href="https://dotesports.com/general/news/all-esports-awards-2025-finalists" target="_blank">
+            <button class="explore-btn">Read More</button>
+            </a>
+        </div>
+    </div>
+    <footer id="bot">
+        <div class="fight">
+            <p id="last">All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
